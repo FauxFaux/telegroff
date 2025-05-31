@@ -1,0 +1,33 @@
+{
+  "name": "telegroff",
+  "version": "0.0.0-UNRELEASED",
+  "main": "dist/entry.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write src",
+    "prepare": "tsc",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FauxFaux/telegroff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FauxFaux/telegroff/issues"
+  },
+  "homepage": "https://github.com/FauxFaux/telegroff#readme",
+  "description": "",
+  "dependencies": {
+    "mqtt": "^5",
+    "pg": "^8"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22",
+    "@types/pg": "^8.15.2",
+    "prettier": "~3.5.",
+    "tsx": "^4.19.4",
+    "typescript": "~5.8"
+  }
+}
