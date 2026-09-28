@@ -1,7 +1,7 @@
 import { Client, Client as Pg } from 'pg';
 import mqttMod from 'mqtt';
 
-export async function main() {
+export async function main(): Promise<number> {
   const mqtt = await mqttMod.connectAsync(process.env.MQTT_HOST!);
   const client = new Pg({
     host: process.env.PG_HOST,
