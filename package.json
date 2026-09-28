@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "format": "prettier --write src",
-    "prepare": "tsc",
-    "test": "vitest"
+    "prepare": "tsc"
   },
   "repository": {
     "type": "git",
@@ -26,8 +25,7 @@
   "devDependencies": {
     "@tsconfig/node24": "^24",
     "@types/pg": "^8.15.2",
-    "prettier": "~3.5",
-    "tsx": "^4.19.4",
+    "prettier": "~3.9",
     "typescript": "~6.0"
   }
 }
